@@ -1,0 +1,151 @@
+WARNING:2023-05-08 21:43:42,541:app:starting the data base connection to create employee
+ERROR:2023-05-08 21:43:42,542:settings:Error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+WARNING:2023-05-08 21:46:00,644:app:starting the data base connection to create employee
+ERROR:2023-05-08 21:46:00,645:settings:Error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+WARNING:2023-05-08 21:47:26,959:app:starting the data base connection to create employee
+WARNING:2023-05-08 21:47:47,561:app:starting the data base connection to create employee
+WARNING:2023-05-08 21:47:59,826:app:starting the data base connection to create employee
+WARNING:2023-05-08 22:08:19,019:app:starting the data base connection to create employee
+WARNING:2023-05-08 22:09:28,878:app:starting the data base connection to create employee
+ERROR:2023-05-08 22:09:29,002:app:Exception on /employee/1 [GET]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 50, in employee_data
+    "hourly_rate": hourly_rate,
+NameError: name 'hourly_rate' is not defined
+WARNING:2023-05-08 22:10:24,075:app:starting the data base connection to create employee
+ERROR:2023-05-08 22:10:24,171:app:Exception on /employee/1 [GET]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 50, in employee_data
+    "hourly_rate": hourly_rate,
+NameError: name 'hourly_rate' is not defined
+WARNING:2023-05-08 22:12:14,801:app:starting the data base connection to create employee
+ERROR:2023-05-08 22:12:14,910:app:Exception on /employee/1 [GET]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 51, in employee_data
+    "hourly_rate": hourly_rate,
+NameError: name 'hourly_rate' is not defined
+WARNING:2023-05-08 22:13:34,775:app:starting the data base connection to get information ofemployee
+ERROR:2023-05-08 22:13:34,893:app:Exception on /employee/1 [GET]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 48, in employee_data
+    name, account_type, balance = row
+ValueError: not enough values to unpack (expected 3, got 2)
+WARNING:2023-05-08 22:14:21,854:app:starting the data base connection to get information ofemployee
+ERROR:2023-05-08 22:14:21,943:settings:Error occurred: not enough values to unpack (expected 3, got 2)
+WARNING:2023-05-09 09:51:46,182:app:starting the data base connection to get information ofemployee
+ERROR:2023-05-09 09:51:46,299:settings:Error occurred: not enough values to unpack (expected 3, got 2)
+WARNING:2023-05-09 09:54:52,636:app:starting the data base connection to get information of employee
+WARNING:2023-05-09 09:55:00,256:app:starting the data base connection to get information of employee
+WARNING:2023-05-09 09:55:06,372:app:starting the data base connection to get information of employee
+ERROR:2023-05-09 10:22:34,951:settings:Error occurred: calculate_salary() got an unexpected keyword argument 'employee_id'
+ERROR:2023-05-09 10:27:12,926:settings:Error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+ERROR:2023-05-09 10:32:44,839:settings:Error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+ERROR:2023-05-09 10:35:27,337:settings:Error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+ERROR:2023-05-09 10:38:19,183:settings:Error occurred: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+ERROR:2023-05-09 10:47:29,717:settings:Error occurred: unsupported operand type(s) for *: 'int' and 'datetime.time'
+ERROR:2023-05-09 10:49:07,436:settings:Error occurred: name 'count' is not defined
+WARNING:2023-05-09 11:15:03,866:app:starting the database connection
+ERROR:2023-05-09 11:15:04,106:settings:Error occurred: column "employee_id" does not exist
+LINE 1: DELETE FROM accountdetails WHERE employee_id = 1
+                                         ^
+
+WARNING:2023-05-09 11:15:33,854:app:starting the database connection
+WARNING:2023-05-15 15:03:15,562:app:starting the database connection
+WARNING:2023-05-15 15:03:15,878:app:close the database connection
+WARNING:2023-05-15 15:03:15,879:app:close the database connection
+WARNING:2023-05-15 15:03:42,384:app:starting the database connection
+WARNING:2023-05-15 15:03:42,571:app:close the database connection
+WARNING:2023-05-15 15:03:42,571:app:close the database connection
+WARNING:2023-05-15 15:22:01,573:app:starting the database connection
+ERROR:2023-05-15 15:22:01,573:app:Exception on /update/2 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 136, in update_data
+    workinghours = data['workinghours']
+KeyError: 'workinghours'
+WARNING:2023-05-15 15:23:45,820:app:starting the database connection
+ERROR:2023-05-15 15:23:45,821:app:Exception on /update/2 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 136, in update_data
+    workinghours = data['workinghours']
+KeyError: 'workinghours'
+WARNING:2023-05-15 15:24:56,212:app:starting the database connection
+ERROR:2023-05-15 15:24:56,213:app:Exception on /update/2 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 136, in update_data
+    workinghours = data['workinghours']
+KeyError: 'workinghours'
+WARNING:2023-05-15 15:28:40,823:app:starting the database connection
+ERROR:2023-05-15 15:28:40,825:app:Exception on /update/2 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/employee payroll system/app.py", line 136, in update_data
+    workinghours = data['workinghours']
+KeyError: 'workinghours'
+WARNING:2023-05-15 15:37:47,968:app:starting the data base connection to get information of employee
+ERROR:2023-05-15 15:37:48,237:settings:Error occurred: name 'salary' is not defined
+WARNING:2023-05-15 15:38:21,291:app:starting the data base connection to get information of employee
+WARNING:2023-05-15 15:42:12,365:app:starting the database connection
+WARNING:2023-05-15 15:46:21,302:app:starting the database connection
